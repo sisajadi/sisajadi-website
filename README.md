@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- SisaJadi Logo -->
-<img src="frontend/src/assets/logo-sj.png" alt="SisaJadi Logo" width="180"/>
+<img src="docs/src/assets/logo-sj.jpg" alt="SisaJadi Logo" width="180"/>
 
 # 🌱 SISAJADI
 
