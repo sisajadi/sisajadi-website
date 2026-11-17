@@ -1,0 +1,24 @@
+# ==============================================================================
+# CODEOWNERS - SisaJadi Website (Monorepo)
+# ==============================================================================
+# Aturan ini mewajibkan persetujuan (approval) dari penanggung jawab role
+# terkait sebelum Pull Request dapat di-merge ke cabang develop atau main.
+# ==============================================================================
+
+# 1. Default Owner (Melindungi file root: README.md, .gitignore, dll.)
+*                                   @sisajadi-id/owners
+
+# 2. Konfigurasi GitHub, Rulesets & CI/CD Workflows
+/.github/                           @sisajadi-id/owners
+
+# 3. Frontend Web (React.js & Tailwind CSS)
+/sisajadi-frontend/                 @sisajadi-id/frontend-devs
+/sisajadi-frontend/package.json     @sisajadi-id/frontend-devs @sisajadi-id/owners
+
+# 4. Backend API & Real-Time Server (Node.js, Express, Socket.io)
+/sisajadi-backend/                  @sisajadi-id/backend-devs
+/sisajadi-backend/package.json      @sisajadi-id/backend-devs @sisajadi-id/owners
+/sisajadi-backend/src/config/       @sisajadi-id/backend-devs @sisajadi-id/owners
+
+# 5. Skema Database (ERD/SQL/Prisma), Seeder & Kontrak API
+/sisajadi-data/                     @sisajadi-id/backend-devs @sisajadi-id/ui-docs-team

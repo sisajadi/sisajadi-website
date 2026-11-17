@@ -29,7 +29,7 @@ Repository ini menggunakan arsitektur **Monorepo** yang mencakup aplikasi web, s
 sisajadi-website/
 ├── .github/
 │   └── CODEOWNERS               # Pengaturan hak persetujuan Pull Request per role/folder
-├── sisajadi-frontend/           # Proyek React.js + Tailwind CSS
+├── frontend/           # Proyek React.js + Tailwind CSS
 │   ├── public/
 │   └── src/
 │       ├── assets/              # Logo resmi SJ & aset grafis
@@ -40,7 +40,7 @@ sisajadi-website/
 │       ├── routes/              # Konfigurasi routing & ProtectedRoute per role
 │       ├── services/            # Konfigurasi instance Axios & Socket.io
 │       └── utils/               # Helper format mata uang, satuan berat, & tanggal
-├── sisajadi-backend/            # Proyek Node.js + Express
+├── backend/            # Proyek Node.js + Express
 │   └── src/
 │       ├── config/              # Koneksi database, Cloudinary, & payment gateway
 │       ├── controllers/         # Handler HTTP request & response
@@ -49,7 +49,7 @@ sisajadi-website/
 │       ├── routes/              # Grouping endpoint REST API (/api/v1)
 │       ├── services/            # Logika bisnis utama
 │       └── utils/               # Helper token, enkripsi, & logger
-├── sisajadi-data/               # Dokumentasi kontrak API, skema ERD, & data seeder
+├── data/               # Dokumentasi kontrak API, skema ERD, & data seeder
 ├── .gitignore                   # Aturan pengabaian file sensitif & build di seluruh subfolder
 └── README.md                    # Dokumentasi utama proyek
 ```
